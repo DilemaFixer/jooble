@@ -1,0 +1,26 @@
+log:
+  log_to_file: true
+  file_path: "./logs/app.log"
+  log_level: 0
+  max_size: 10
+  max_backups: 5
+  max_age: 7
+  compress: true
+
+db:
+  path: "./db/data.db"
+  limit: 50
+  clear_step: 10
+
+chrome:
+  exe_path: "/Users/illashisko/Documents/Bin/chrome/mac_arm-141.0.7390.78/chrome-mac-arm64/H.app/Contents/MacOS/Google Chrome for Testing"
+  user_data_folder: "/Users/illashisko/Documents/Bin/jooble-user-data"
+
+parsing:
+  url: "https://ua.jooble.org/SearchResult?date=8&ukw=golang%20developer"
+  delay: 1 #in minutes
+
+signal:
+  token: "8202589571:AAEZzo5jlw2Fk8gMgkS4J7LQ8V5KDQIB5fM"
+  customer_id: 6738765929
+
