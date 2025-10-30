@@ -21,6 +21,6 @@ parsing:
   delay: 1 #in minutes
 
 signal:
-  token: "8202589571:AAEZzo5jlw2Fk8gMgkS4J7LQ8V5KDQIB5fM"
-  customer_id: 6738765929
+  token: "bot-token"
+  customer_id: customer-id
 
