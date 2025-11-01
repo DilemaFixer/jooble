@@ -7,6 +7,7 @@ import (
 	downloader "jooble-parser/internal/loader"
 	htmlParser "jooble-parser/internal/parser"
 	"jooble-parser/internal/signal"
+	"time"
 
 	"go.uber.org/zap"
 )
@@ -70,6 +71,10 @@ func (app *App) Run(ctx context.Context) {
 			logger.Error("update signal error", zap.Error(err))
 		}
 
-		break
+		app.Sleep()
 	}
+}
+
+func (app *App) Sleep() {
+	time.Sleep(time.Second * app.cfg.ParsingConfig.Delay)
 }
