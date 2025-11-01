@@ -1,7 +1,1 @@
-{"level":"debug","time":"2025-10-24T17:03:05.437+0200","caller":"app/app.go:51","msg":"Loading","url":"https://ua.jooble.org/SearchResult?date=8&ukw=golang%20developer"}
-{"level":"debug","time":"2025-10-24T17:16:52.422+0200","caller":"app/app.go:51","msg":"Loading","url":"https://ua.jooble.org/SearchResult?date=8&ukw=golang%20developer"}
-{"level":"debug","time":"2025-10-24T17:17:03.998+0200","caller":"loader/chromium.go:63","msg":"Clear user data folder","path":"/Users/illashisko/Documents/Bin/jooble-user-data"}
-{"level":"debug","time":"2025-10-24T17:17:05.146+0200","caller":"app/app.go:69","msg":"Successfully sent update signal","jobs":12}
-{"level":"debug","time":"2025-10-24T17:19:37.754+0200","caller":"app/app.go:51","msg":"Loading","url":"https://ua.jooble.org/SearchResult?date=8&ukw=golang%20developer"}
-{"level":"debug","time":"2025-10-24T17:19:49.303+0200","caller":"loader/chromium.go:63","msg":"Clear user data folder","path":"/Users/illashisko/Documents/Bin/jooble-user-data"}
-{"level":"debug","time":"2025-10-24T17:19:50.212+0200","caller":"app/app.go:69","msg":"Successfully sent update signal","jobs":12}
+
